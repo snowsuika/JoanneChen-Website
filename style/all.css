@@ -179,30 +179,30 @@ h2 {
   font-style: italic;
 }
 
-.about ul:first-child {
+.about ul:first-of-type {
   padding-bottom: 24px;
   border-bottom: 1px #000000 solid;
   margin-bottom: 28px;
 }
 
-.about ul:first-child li:not(:last-child) {
+.about ul:first-of-type li:not(:last-child) {
   margin-bottom: 4px;
 }
 
-.about ul:last-child {
+.about ul:last-of-type {
   margin-bottom: 28px;
 }
 
-.about ul:last-child li {
+.about ul:last-of-type li {
   margin-bottom: 28px;
 }
 
-.about ul:last-child li p {
+.about ul:last-of-type li p {
   display: inline-block;
   position: relative;
 }
 
-.about ul:last-child li p::before {
+.about ul:last-of-type li p::before {
   position: absolute;
   left: -38px;
   top: 6px;

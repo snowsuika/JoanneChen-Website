@@ -81,7 +81,7 @@ h2 {
         font-weight: $font-weight-bold;
         font-style: italic;
     }
-    ul:first-child {
+    ul:first-of-type {
         padding-bottom: $base-spacer * 3;
         border-bottom: 1px $black-color solid;
         margin-bottom: 28px;
@@ -89,7 +89,7 @@ h2 {
             margin-bottom: $base-spacer / 2;
         }
     }
-    ul:last-child {
+    ul:last-of-type {
         margin-bottom: 28px;
         li {
             margin-bottom: 28px;
