@@ -1,0 +1,15 @@
+@import './variable';
+
+@mixin d-flex($horizon: center, $align: center) {
+    display: flex;
+    justify-content: $horizon;
+    align-items: $align;
+}
+
+.container {
+    width: 1200px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}

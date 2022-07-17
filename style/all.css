@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1200px;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:link:hover {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 308px 0;
+  margin-bottom: 56px;
+  font-style: italic;
+  color: #ffffff;
+  background: center no-repeat url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png");
+  background-size: cover;
+}
+
+header p {
+  font-weight: 700;
+}
+
+header .sub-title {
+  margin-bottom: 40px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li:not(:last-child) {
+  padding-right: 16px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 106px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 84px;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+}
+
+.about img {
+  margin-bottom: 20px;
+}
+
+.about ul {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.about ul:first-child {
+  padding-bottom: 24px;
+  border-bottom: 1px #000000 solid;
+  margin-bottom: 28px;
+}
+
+.about ul:first-child li:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.about ul:last-child {
+  margin-bottom: 28px;
+}
+
+.about ul:last-child li {
+  margin-bottom: 28px;
+}
+
+.about ul:last-child li p {
+  display: inline-block;
+  position: relative;
+}
+
+.about ul:last-child li p::before {
+  position: absolute;
+  left: -38px;
+  top: 6px;
+  content: '';
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+}
+
+.my-brand {
+  margin-bottom: 56px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 56px 0 120px 0;
+}
+
+.my-brand h2 {
+  margin-bottom: 12px;
+}
+
+.my-brand .sub-title {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+
+.my-brand p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+
+.my-brand ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.my-brand ul li {
+  margin-bottom: 40px;
+}
+
+.my-brand ul li:not(:first-child):not(:last-child) {
+  padding-right: 24px;
+}
+
+.other-wokrs {
+  margin-bottom: 128px;
+}
+
+.other-wokrs h2 {
+  margin-bottom: 16px;
+}
+
+.other-wokrs .title-describe {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 42px;
+  margin-bottom: 56px;
+}
+
+.other-wokrs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.other-wokrs ul li:not(:last-child) {
+  padding-right: 24px;
+}
+
+.other-wokrs ul li:not(:last-child) p {
+  margin: 16px 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  padding: 64px 0;
+}
+
+footer h2 {
+  margin-bottom: 16px;
+}
+
+footer li:not(:last-child) {
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=all.css.map */
